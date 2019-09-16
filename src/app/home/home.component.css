@@ -1,0 +1,38 @@
+.background-fullsize {
+    height: 100%;
+    width: 100%;
+}
+.home-container {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+.centered-heading {
+    font-family: 'Arizonia';
+    font-size: 110px;
+    margin: 0;
+}
+.btn {
+    border: 2px solid white;
+    border-radius: 8px; 
+    background: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.success:hover {
+    background-color:white;
+    color: black;
+    border: 2px solid black;
+}
