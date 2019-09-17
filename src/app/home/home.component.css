@@ -19,7 +19,7 @@
 }
 .centered-heading {
     font-family: 'Arizonia';
-    font-size: 110px;
+    font-size: 100px;
     margin: 0;
 }
 .btn {
@@ -30,6 +30,54 @@
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
+}
+@media (max-width:1200px){
+    .centered-heading {
+        font-family: 'Arizonia';
+        font-size: 80px;
+        margin: 0;
+    }
+    .btn {
+        border: 2px solid white;
+        border-radius: 8px; 
+        background: none;
+        color: white;
+        padding: 12px 24px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+@media (max-width:800px){
+    .centered-heading {
+        font-family: 'Arizonia';
+        font-size: 60px;
+        margin: 0;
+    }
+    .btn {
+        border: 2px solid white;
+        border-radius: 8px; 
+        background: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+@media (max-width:600px){
+    .centered-heading {
+        font-family: 'Arizonia';
+        font-size: 50px;
+        margin: 0;
+    }
+    .btn {
+        border: 2px solid white;
+        border-radius: 8px; 
+        background: none;
+        color: white;
+        padding: 8px 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
 }
 .success:hover {
     background-color:white;
